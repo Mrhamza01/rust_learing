@@ -1,0 +1,41 @@
+# Ignore target directory (compiled artifacts)
+target/
+
+# Ignore Cargo dependencies and lockfile
+Cargo.lock
+
+# Ignore build artifacts for Rust
+**/*.rlib
+
+# Ignore IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# Ignore unnecessary logs and temporary files
+*.log
+.DS_Store
+*.tmp
+*.swp
+*.swo
+*.swn
+# Ignore target directory (compiled artifacts)
+target/
+
+# Ignore specific Cargo project dependencies in parent folders
+**/target/
+
+# Ignore specific Cargo project dependencies in parent folders
+**/target/
+**/Cargo.lock
+
+# Ignore Node.js dependencies (if using a frontend)
+node_modules/
+dist/
+
+# Ignore Tauri build files (if applicable)
+src-tauri/target/
+src-tauri/.cargo/
+
+# Ignore Next.js build files (if applicable)
+.next/
